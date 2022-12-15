@@ -1,0 +1,17 @@
+#nav-bar {
+    position: fixed;
+}
+
+@media only screen and (max-width: 720px) {
+    #submit {
+        background-color: yellow;
+    }
+}
+
+#header {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    width: 100%
+}
